@@ -1,5 +1,5 @@
 const API_KEY = "d6ccaf9afd16da60d2d72a8621db96fc";
-
+// tmdb api
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
     fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
